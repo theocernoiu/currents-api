@@ -24,7 +24,6 @@ import java.util.stream.Collectors;
 @Service
 public class TokenProvider {
 
-
     private static final String AUTHORITIES_KEY = "auth";
 
     @Value("${spring.security.authentication.jwt.validity}")
